@@ -38,6 +38,18 @@ section#inicio p {
 
 /*Calculadora*/
 
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+form div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 section#Calculadora form#Cal {
     background-color: #79ce66;
     width: 557px;
